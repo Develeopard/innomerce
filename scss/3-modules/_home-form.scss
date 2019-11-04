@@ -1,0 +1,47 @@
+.form{
+    // border: 1px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+
+    .contact-form-input, textarea{
+        box-sizing: border-box;
+        margin-top: 19px;
+        border: none;
+        border-bottom: 1px solid lightgray;
+        background-color: transparent;
+
+        &:hover, &:focus{
+            box-shadow: 0px 0px 30px rgb(104, 104, 104);
+        }
+        
+        &::placeholder, &:placeholder-shown{
+            text-transform: uppercase;
+            font-size: 1rem;
+            letter-spacing: 2.3px;
+        }
+    }
+
+    .contact-form-input{
+        padding: 8px 3px;
+        font-size: 1rem;
+    }
+
+    .home-form-button{
+        display: block;
+        background-color: transparent;
+        margin: 80px auto 0 auto;
+        padding: 20px 50px;
+        font-size: .7rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        outline: 1px solid black;
+        transition: all .2s ease-in;
+
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}

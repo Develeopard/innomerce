@@ -1,0 +1,22 @@
+.about-services{
+    // background-color: red;
+    width: 100%;
+    padding: 90px 5px;
+
+    .about-services-content{
+        // background-color: pink;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .about-cards{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            row-gap: 40px;
+
+            @media (max-width: 810px){
+                grid-template-columns: 1fr;
+            }
+        }
+
+    }
+}

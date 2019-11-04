@@ -1,0 +1,40 @@
+.services-hero{
+    // background-color: pink;
+    background: url('../images/cup-desk-drink-434337.jpg') center center/cover no-repeat;
+    width: 100%;
+    padding: 100px 10px;
+    color: rgb(117, 117, 117);
+    position: relative;
+
+
+    .services-hero-content{
+        // border: 1px solid blue;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .services-hero-hls{
+            text-align: center;
+
+            h3{
+                font-size: .9rem;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                letter-spacing: 5px;
+                word-spacing: 5px;
+                text-transform: uppercase;
+            }
+
+            h1{
+                margin-top: 30px;
+                font-size: 2rem;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+
+                span{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}

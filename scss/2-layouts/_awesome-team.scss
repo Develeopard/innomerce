@@ -1,0 +1,41 @@
+.awesome-team{
+    // background-color: red;
+    width: 100%;
+    padding: 100px 10px;
+
+    .awesome-content{
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .awesome-hls{
+            text-align: center;
+            
+            h3{
+                font-size: 1rem;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                letter-spacing: 3px;
+                word-spacing: 3px;
+            }
+
+            h1{
+                font-size: 2rem;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                word-spacing: 4px;
+                margin-top: 20px;
+            }
+
+            @media (max-width: 760px){
+                h1{
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 600px){
+        padding-top: 50px;
+    }
+}

@@ -1,0 +1,39 @@
+.together{
+    // background-color: orange;
+    background: url('../images/computer-keyboard-connection-contemporary-1714208.jpg') center center/cover no-repeat;
+    filter: grayscale(100%);
+    width: 100%;
+    padding: 120px 0 100px 0;
+    color: white;
+
+    .together-content{
+        // border: 1px solid black;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .together-hls{
+            padding-left: 10px;
+            h3{
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                font-size: .9rem;
+                letter-spacing: 3px;
+                word-spacing: 3px;
+            }
+
+            h1{
+                margin-top: 25px;
+                font-size: 2.3rem;
+                letter-spacing: 9px;
+                word-spacing: 6px;
+            }
+
+            @media (max-width: 760px){
+                h1{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

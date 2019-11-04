@@ -1,0 +1,79 @@
+.projects-hero{
+    background-image: url('../images/black-desk-imac-9410.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 800px;
+    padding: 100px 10px;
+    overflow: hidden;
+    position: relative;
+
+
+    .projects-hero-content{
+        // background-color: darkseagreen;
+        color: white;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+
+        .projects-hl{
+            #projects-tw{
+                font-size: 3rem;
+                margin-top: 100px;
+                letter-spacing: 9px;
+            }
+        }
+
+    }
+    .tool-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('../images/home-2-parallax-1.png');
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+
+    }
+    .tool-2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('../images/home-2-parallax-4.png');
+        background-position: bottom;
+        background-size: auto;
+        background-repeat: no-repeat;
+
+    }
+    .tool-3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('../images/home-2-parallax-3.png');
+        background-position: top right;
+        background-size: auto;
+        background-repeat: no-repeat;
+
+    }
+
+    .tool-4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: url('../images/home-2-parallax-2.png');
+        background-position: bottom right;
+        background-size: auto;
+        background-repeat: no-repeat;
+
+    }
+}

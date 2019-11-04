@@ -1,0 +1,36 @@
+.home-counter{
+    background: url('../images/cup-desk-drink-434337.jpg') center center/cover no-repeat;
+    width: 100%;
+    padding: 100px 0;
+
+    .home-counter-content{
+        // border: 2px solid snow;
+        color: rgb(104, 102, 102);
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        @media (max-width:820px){
+            grid-template-columns: 1fr;
+        }
+
+        &[data-scroll]{
+            transition: all 1.2s;
+        }
+
+        &[data-scroll="in"]{
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        &[data-scroll="out"]{
+            opacity: 0;
+            transform: translateY(300px);
+        }
+    }
+
+    @media (max-width:950px){
+        padding: 60px 0;
+    }
+}

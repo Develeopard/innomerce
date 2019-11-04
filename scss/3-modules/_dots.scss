@@ -1,0 +1,15 @@
+.dots{
+    // border: 1px solid yellow;
+    width: 81%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+
+    @media (max-width: 1030px){
+        width: 100%;
+    }
+
+    @media (max-width: 841px){
+        grid-template-columns: 1fr;
+    }
+}

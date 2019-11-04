@@ -1,0 +1,35 @@
+.news-agency-counter{
+    // border: 1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+
+    .agency-counter-box{
+        // border: 1px solid yellow;
+        padding: 40px;
+        display: grid;
+        place-content: center;
+        // text-align: center;
+
+        .far, .fas{
+            font-size: 2rem;
+            text-align: center;
+            // border: 1px solid red;
+        }
+
+        h1{
+            font-size: 2.3rem;
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal;
+        }
+
+        p{
+            margin-top: 10px;
+        }
+    }
+
+    @media (max-width: 720px){
+        grid-template-columns: 1fr;
+    }
+}

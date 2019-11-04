@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // background-color: rgb(106, 156, 109);
+    overflow-x: hidden;
+}
+
+// .wrapper{
+//     border: 1px solid blue;
+// }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+

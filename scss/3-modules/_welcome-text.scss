@@ -1,0 +1,47 @@
+.welcome-text{
+    max-width: 65%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    p{
+        padding: 0 20px;
+
+        .sp1{
+            display: block;
+            margin-bottom: 20px;
+        }
+        
+        .sp2{
+            display: block;
+            margin-top: 20px;
+        }
+    }
+    
+    &[data-scroll]{
+        transition: all 2.2s;
+    }
+    
+    &[data-scroll="in"]{
+        opacity: 1;
+        transform: translateX(0);
+        // color: red;
+    }
+    
+    &[data-scroll="out"]{
+        opacity: 0;
+        transform: translateX(-100%);
+        // color: slateblue;
+    }
+    
+    @media (max-width: 680px){
+        max-width: 100%;
+        margin: 20px auto 0 auto;
+        flex-direction: column;
+        
+        p{
+            padding-top: 20px;
+        }
+    }
+}

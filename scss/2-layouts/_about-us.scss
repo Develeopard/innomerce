@@ -1,0 +1,23 @@
+.about-us{
+    // background-color: red;
+    width: 100%;
+
+    .about-us-content{
+        // border: 2px solid floralwhite;
+        max-width: 1590px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: 50% 1fr;
+
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 780px){
+            grid-template-columns: 1fr;
+        }
+    }
+
+}

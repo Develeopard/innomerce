@@ -1,0 +1,96 @@
+.block{
+    padding: 30px 20px;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    
+
+    h3{
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: .9rem;
+        transition: all .2s;
+
+        &::after{
+            content: '';
+            position: absolute;
+            display: block;
+            width: calc(100% - 40px);
+            height: 3px;
+            background-color: white;
+            top: 60px;
+            right: 100%;
+            transition: all .2s;
+        }
+    }
+
+    p{
+        position: absolute;
+        top: 75px;
+        left: 100%;
+        transition: all .2s;
+    }
+
+    &:hover{
+        p{
+            left: 20px;
+        }
+
+        h3{
+            &::after{
+                right: calc(0% + 20px);
+            }
+        }
+    }
+
+}
+
+.block1{
+    background-image: url('../images/project-6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.block2{
+    background-image: url('../images/project-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.block3{
+    background-image: url('../images/project-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.block4{
+    background-image: url('../images/project-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.block5{
+    background-image: url('../images/project-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.block6{
+    background-image: url('../images/project-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}

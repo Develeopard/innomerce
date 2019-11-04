@@ -1,0 +1,28 @@
+.news-innomerce{
+    background-color: rgb(104, 98, 98);
+    background-image: url('../images/computer-keyboard-connection-contemporary-1714208.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    width: 100%;
+    padding: 100px 20px;
+
+    .news-innomerce-content{
+        // background-color: pink;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        color: white;
+
+        @media(max-width: 920px){
+            flex-direction: column;
+            max-width: 100%;
+        }
+    }
+
+    @media(max-width: 920px){
+        padding: 80px 5px;
+    }
+}

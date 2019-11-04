@@ -1,0 +1,39 @@
+.services-hero-icons{
+    // border: 1px solid yellow;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+
+    .icon-feature{
+        // border: 1px solid floralwhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .icon{
+            // border: 1px solid black;
+            border-radius: 100%;
+            width: 80px;
+            height: 80px;
+            display: grid;
+            place-items: center;
+            transition: background .2s;
+
+            .far, .fas{
+                font-size: 2rem;
+            }
+
+            &:hover{
+                background-color: rgb(226, 226, 226);
+            }
+        }
+        
+        h3{
+            font-size: .9rem;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.portfolio{
+    width: 100%;
+    // background-color: red;
+    padding: 0 20px 100px 20px;
+
+    .portfolio-content{
+        max-width: 1590px;
+        margin: 0 auto;
+
+        .portfolio-hls{
+            text-align: center;
+            padding: 60px 0;
+
+            h3{
+                font-size: 1rem;
+                font-weight: normal;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            h1{
+            margin-top: 30px;
+            font-size: 2.2rem;
+            letter-spacing: 6px;
+            }
+        }
+    }
+}

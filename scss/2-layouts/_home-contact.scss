@@ -1,0 +1,32 @@
+.home-contact{
+    // background-color: red;
+    width: 100%;
+    padding: 10px 0 100px 0;
+
+    .home-contact-content{
+        // border: 1px solid yellowgreen;
+        max-width: 800px;
+        margin: 0 auto;
+
+        .home-contact-text{
+            padding: 50px 0;
+            text-align: center;
+
+            h3{
+                font-size: 1.1rem;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                letter-spacing: 3px;
+                font-weight: normal;
+            }
+
+            h1{
+                font-size: 2.2rem;
+                letter-spacing: 6px;
+                word-spacing: 8px;
+                text-transform: uppercase;
+                margin-top: 20px;
+            }
+        }
+    }
+}

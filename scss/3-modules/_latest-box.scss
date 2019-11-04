@@ -1,0 +1,82 @@
+.latest-box{
+    // border: 1px solid blue;
+    min-height: 300px;
+    position: relative;
+    transition: all .2s;
+    overflow: hidden;
+
+    h4{
+        text-align: center;
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: .95rem;
+        transition: all .2s;
+    }
+
+    .latest-cover{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 20%;
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        transition: all .2s;
+
+        &::after{
+            content: '';
+            position: absolute;
+            width: 80%;
+            height: 4px;
+            background-color: white;
+            top: 22%;
+            left: 10%;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 100px;
+            color: white;
+        }
+    }
+
+    &:hover{
+        h4{
+            margin-top: 20px;
+        }
+
+        .latest-cover{
+            opacity: 1;
+            top: 0;
+        }
+    }
+}
+
+.latest-box1{
+    background-image: url('../images/project-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-box2{
+    background-image: url('../images/project-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-box3{
+    background-image: url('../images/project-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-box4{
+    background-image: url('../images/home-project-5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

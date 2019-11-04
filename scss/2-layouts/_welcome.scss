@@ -1,0 +1,28 @@
+.welcome{
+    // background-color: red;
+    width: 100%;
+
+    .welcome-content{
+        max-width: 1590px;
+        margin: 0 auto;
+        padding: 80px 10px;
+
+        .welcome-hls{
+            text-align: center;
+
+            h3{
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                letter-spacing: 7px;
+            }
+
+            h1{
+                font-size: 2rem;
+                text-transform: uppercase;
+                letter-spacing: 7px;
+            }
+        }
+    }
+}

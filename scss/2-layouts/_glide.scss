@@ -1,0 +1,52 @@
+.glide{
+    // background-color: salmon;
+    height: 750px;
+    max-width: 1590px;
+    margin: 0 auto;
+
+    .glide__track{
+        // background-color: pink;
+        // max-width: 1590px;
+        margin: 0 auto;
+        height: 100%;
+        // width: 100%;
+
+        .glide__slide{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 750px;
+            // max-width: 1590px;
+            position: relative;
+            // border: 14px solid antiquewhite;
+        }
+
+        .glide__slide--active{
+            .g-text{
+                top: 150px;
+                opacity: 1;
+                transition: all .5s ease-in;
+            }
+        }
+    }
+
+    .glide__arrow{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        color: black;
+        font-size: 3rem;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+    .glide__arrow--left{
+        left: 1%;
+    }
+
+    .glide__arrow--right{
+        right: 1%;
+    }
+}

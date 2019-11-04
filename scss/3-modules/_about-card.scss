@@ -1,0 +1,36 @@
+.about-card{
+    // border: 1px solid darkslategrey;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    .far, .fas{
+        font-size: 3rem;
+    }
+
+    .card-text{
+        margin-left: 30px;
+
+        h3{
+            font-size: .9rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    
+        p{
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 810px){
+        grid-template-columns: 1fr;
+        place-items: center;
+        text-align: center;
+
+        .card-text{
+            margin: 12px 0 0 0;
+        }
+    }
+
+}

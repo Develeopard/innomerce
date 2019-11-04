@@ -1,0 +1,28 @@
+.choose-glide{
+    // background-color: pink;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .projects-slide{
+        .text{
+            padding: 40px 20px;
+            color: white;
+
+            .fas, .far{
+                font-size: 2rem;
+            }
+
+            h1{
+                margin-top: 40px;
+                font-size: 1rem;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                font-weight: normal;
+            }
+
+            p{
+                margin-top: 20px;
+            }
+        }
+    }
+}

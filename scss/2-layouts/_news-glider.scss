@@ -1,0 +1,29 @@
+.news-glider{
+    // background-color: red;
+    width: 100%;
+    padding: 100px 20px;
+
+    .news-glider-content{
+        max-width: 1000px;
+        margin: 0 auto;
+        // border: 1px solid pink;
+        position: relative;
+        .news-glider-hls{
+            text-align: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+        }
+        
+        
+        .glide__bullets{
+            // color: red;
+            // top: 0;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+}

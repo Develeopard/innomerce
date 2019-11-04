@@ -1,0 +1,7 @@
+.showcase-boxes{
+    // border: 1px solid blue;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    gap: 20px;
+}

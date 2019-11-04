@@ -1,0 +1,38 @@
+.news-team{
+    // background-color: red;
+    padding: 70px 10px 60px 10px;
+
+    .team-content{
+        // background-color: pink;
+        max-width: 1300px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+
+        .team-text{
+            padding: 20px;
+            h3{
+                font-size: .96rem;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: normal;
+                letter-spacing: 3px;
+                word-spacing: 3px;
+            }
+
+            p{
+                margin-top: 30px;
+                font-size: 1.3rem;
+                font-family: 'Oswald', sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 2px;
+                word-spacing: 2px;
+            }
+        }
+
+        @media (max-width: 760px){
+            grid-template-columns: 1fr;
+        }
+    }
+}

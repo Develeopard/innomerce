@@ -1,0 +1,99 @@
+.navigation{
+    // background-color: pink;
+    
+    .menu{
+        display: flex;
+        
+        li{
+            margin-left: 60px;
+            display: block;
+            position: relative;
+            transition: all .3s;
+
+            &:hover  {
+                transition: all .3s;
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    top: -270%;
+                    left: 0;
+                    width: 100%;
+                    height: 5px;
+                    background-color: black;
+                    transition: all .3s;
+                }   
+            }
+
+            a{
+                font-size: .8rem;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                color: #222222;
+                transition: all .3s;
+
+            }
+
+            .current-page{
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    top: -270%;
+                    left: 0;
+                    width: 100%;
+                    height: 5px;
+                    background-color: black;
+                    transition: all .3s;
+                } 
+            }
+        }
+        
+    }
+    
+    @media (max-width: 980px){
+        // display: none;
+        
+        .menu{
+            background-color: blue;
+            position: absolute;
+            display: block;
+            padding: 20px;
+            height: 100vh;
+            width: 250px;
+            top: 100%;
+            // left: 100%;
+            right: 0;
+            transform: translateX(100%);
+            z-index: 22;
+            transition: all .3s ease-in-out;
+
+            li{
+                margin: 50px 20px;
+
+                &:hover{
+                    &::after{
+                        top: -40%;
+                    }
+                }
+
+                a{
+                    font-size: 1.2rem;
+                }
+    
+                .current-page{
+                    &::after{
+                        // background-color: red;
+                        top: -40%;
+                    }
+                }
+            }
+        }
+    }
+    .menu-open{
+        transform: translateX(0);
+        background-color: cadetblue;
+        // left: auto;
+    }
+}

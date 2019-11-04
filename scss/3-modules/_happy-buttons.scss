@@ -1,0 +1,35 @@
+.happy-buttons{
+
+
+    .h-button{
+        position: absolute;
+        background-color: transparent;
+        color: rgb(185, 175, 175);
+        padding: 20px;
+        border: none;
+        top: 50%;
+        cursor: pointer;
+
+         &:focus{
+            outline: 1px dotted blue;
+        }
+    }
+
+    #prev{
+        left: 20%;
+        transform: translateY(-50%);
+        
+        @media (max-width: 750px){
+            left: 5%;
+        }
+    }
+    
+    #next{
+        right: 20%;
+        transform: translateY(-50%);
+
+        @media (max-width: 750px){
+            right: 5%;
+        }
+    }
+}

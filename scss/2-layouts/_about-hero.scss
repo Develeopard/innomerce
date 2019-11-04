@@ -1,0 +1,31 @@
+.about-hero{
+    // background-color: blueviolet;
+    background: url('../images/background-camera-copyspace-593322.jpg') center center/cover no-repeat;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    place-content: center;
+
+    .about-hero-content{
+        // border: 1px solid sandybrown;
+        text-align: center;
+        color: white;
+
+        h3{
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal;
+            letter-spacing: 3px;
+            word-spacing: 3px;
+        }
+
+        h1{
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            word-spacing: 12px;
+            margin-top: 20px;
+        }
+    }
+}
