@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.wrapper {
   overflow-x: hidden;
 }
 
@@ -1039,7 +1039,7 @@ footer .footer-content .footer-social a:hover {
 }
 @media (max-width: 980px) {
   .navigation .menu {
-    background-color: blue;
+    background-color: white;
     position: absolute;
     display: block;
     padding: 20px;
@@ -1066,7 +1066,7 @@ footer .footer-content .footer-social a:hover {
 }
 .navigation .menu-open {
   transform: translateX(0);
-  background-color: cadetblue;
+  background-color: white;
 }
 
 .g-text {
