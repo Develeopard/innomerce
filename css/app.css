@@ -1085,6 +1085,7 @@ footer .footer-content .footer-social a:hover {
   font-weight: normal;
   letter-spacing: 7px;
   word-spacing: 7px;
+  text-shadow: 0px 0px 5px cornsilk;
 }
 .g-text h1 {
   max-width: 1600px;
@@ -1108,13 +1109,13 @@ footer .footer-content .footer-social a:hover {
 }
 
 .glide__slides .gs1 {
-  background: url("../images/composition-desk-eyeglasses-393044.jpg") center center/cover no-repeat;
+  background: url("../images/gg-new (1).jpg") center center/cover no-repeat;
 }
 .glide__slides .gs2 {
-  background: url("../images/chairs-contemporary-designer-416320.jpg") center center/cover no-repeat;
+  background: url("../images/gg-new (2).jpg") center center/cover no-repeat;
 }
 .glide__slides .gs3 {
-  background: url("../images/coffee-cup-desk-317377.jpg") center center/cover no-repeat;
+  background: url("../images/gg-new (3).jpg") center center/cover no-repeat;
 }
 
 .welcome-text {
