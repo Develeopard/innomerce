@@ -7,6 +7,7 @@
     transform: translateX(-50%);
     text-align: center;
     opacity: 0;
+    color: rgb(0, 0, 0);
 
     h3{
         font-size: 1.2rem;
@@ -24,6 +25,7 @@
         letter-spacing: 22px;
         word-spacing: 7px;
         margin-top: 20px;
+        text-shadow: 0px 0px 5px cornsilk;
     }
 
     p{
